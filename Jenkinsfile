@@ -3,9 +3,7 @@ pipeline {
   stages {
      stage('Hello') {
          steps {
-              node {
-               echo 'Hello World Using Jenkins File'
-                   }
+               echo 'Hello World Using Jenkins File'                  
                }
                  }
          }
